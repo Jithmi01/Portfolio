@@ -748,3 +748,63 @@ p {
 	}
 }
 /* End  Media Query For Desktop */
+
+
+
+/* Center the form in the middle of the page */
+
+/* Contact Form Container */
+.contact-form-container {
+    background: #000; /* Black background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 500px; /* Set max width for better responsiveness */
+}
+
+/* Form Heading */
+.contact-form-container h3 {
+    color: #fff; /* White text for contrast */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form Labels */
+.contact-form .form-label {
+    font-weight: 600;
+    color: #ddd; /* Light grey for readability */
+}
+
+/* Form Inputs */
+.contact-form .form-control {
+    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #555;
+    background: #222; /* Darker input background */
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Input Focus Effect */
+.contact-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button */
+.contact-form .btn-primary {
+    background: #007bff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.contact-form .btn-primary:hover {
+    background: #0056b3;
+}
